@@ -20,6 +20,7 @@
 		3A776F63291CDA7500F5936E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F62291CDA7500F5936E /* BaseView.swift */; };
 		3A776F65291CE10700F5936E /* HasCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F64291CE10700F5936E /* HasCustomView.swift */; };
 		3A776F67291CE11B00F5936E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F66291CE11B00F5936E /* MainView.swift */; };
+		3A776F69291CE7E900F5936E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F68291CE7E900F5936E /* ViewModelType.swift */; };
 		744092247889EA493647F353 /* Pods_MyPilates_MyPilatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */; };
 		80E1B748947B8CE947B489BD /* Pods_MyPilatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */; };
 		E23B2BE3E7920E9E87BD5053 /* Pods_MyPilates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */; };
@@ -60,6 +61,7 @@
 		3A776F62291CDA7500F5936E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		3A776F64291CE10700F5936E /* HasCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCustomView.swift; sourceTree = "<group>"; };
 		3A776F66291CE11B00F5936E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3A776F68291CE7E900F5936E /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilatesTests.release.xcconfig"; path = "Target Support Files/Pods-MyPilatesTests/Pods-MyPilatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				3A776F5E291CD69600F5936E /* BaseViewController.swift */,
 				3A776F62291CDA7500F5936E /* BaseView.swift */,
 				3A776F64291CE10700F5936E /* HasCustomView.swift */,
+				3A776F68291CE7E900F5936E /* ViewModelType.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				3A776F2E291CC2F500F5936E /* MainViewController.swift in Sources */,
 				3A776F5F291CD69600F5936E /* BaseViewController.swift in Sources */,
 				3A776F65291CE10700F5936E /* HasCustomView.swift in Sources */,
+				3A776F69291CE7E900F5936E /* ViewModelType.swift in Sources */,
 				3A776F63291CDA7500F5936E /* BaseView.swift in Sources */,
 				3A776F2A291CC2F500F5936E /* AppDelegate.swift in Sources */,
 				3A776F5C291CD4F300F5936E /* SceneDelegate.swift in Sources */,
