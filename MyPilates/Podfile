@@ -16,6 +16,7 @@ target 'MyPilates' do
   pod 'RxCocoa'
   pod 'SnapKit'
   pod 'Then'
+  pod 'R.swift'
 
   target 'MyPilatesTests' do
     inherit! :search_paths

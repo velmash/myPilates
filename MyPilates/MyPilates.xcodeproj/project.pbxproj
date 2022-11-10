@@ -22,6 +22,7 @@
 		3A776F67291CE11B00F5936E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F66291CE11B00F5936E /* MainView.swift */; };
 		3A776F69291CE7E900F5936E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F68291CE7E900F5936E /* ViewModelType.swift */; };
 		3A776F6D291CE83000F5936E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F6C291CE83000F5936E /* Colors.xcassets */; };
+		3A776F83291CEC7400F5936E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F82291CEC7400F5936E /* R.generated.swift */; };
 		744092247889EA493647F353 /* Pods_MyPilates_MyPilatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */; };
 		80E1B748947B8CE947B489BD /* Pods_MyPilatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */; };
 		E23B2BE3E7920E9E87BD5053 /* Pods_MyPilates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */; };
@@ -64,6 +65,7 @@
 		3A776F66291CE11B00F5936E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3A776F68291CE7E900F5936E /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		3A776F6C291CE83000F5936E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3A776F82291CEC7400F5936E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilatesTests.release.xcconfig"; path = "Target Support Files/Pods-MyPilatesTests/Pods-MyPilatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,8 +181,9 @@
 		3A776F6A291CE80600F5936E /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				3A776F82291CEC7400F5936E /* R.generated.swift */,
 				3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */,
-				3A776F6F291CE84F00F5936E /* plist */,
+				3A776F6F291CE84F00F5936E /* Plist */,
 				3A776F6B291CE81200F5936E /* Design */,
 			);
 			path = Asset;
@@ -203,13 +206,13 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		3A776F6F291CE84F00F5936E /* plist */ = {
+		3A776F6F291CE84F00F5936E /* Plist */ = {
 			isa = PBXGroup;
 			children = (
 				3A776F37291CC2F500F5936E /* Info.plist */,
 				3A776F59291CC49700F5936E /* GoogleService-Info.plist */,
 			);
-			path = plist;
+			path = Plist;
 			sourceTree = "<group>";
 		};
 		3A776F70291CE87200F5936E /* View */ = {
@@ -369,6 +372,7 @@
 			buildConfigurationList = 3A776F50291CC2F500F5936E /* Build configuration list for PBXNativeTarget "MyPilates" */;
 			buildPhases = (
 				F72CDC8DF856D562C9078802 /* [CP] Check Pods Manifest.lock */,
+				3A776F81291CEAC000F5936E /* R.swift */,
 				3A776F22291CC2F500F5936E /* Sources */,
 				3A776F23291CC2F500F5936E /* Frameworks */,
 				3A776F24291CC2F500F5936E /* Resources */,
@@ -494,6 +498,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3A776F81291CEAC000F5936E /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		633876B8D32151C842953F43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,6 +627,7 @@
 			files = (
 				3A776F67291CE11B00F5936E /* MainView.swift in Sources */,
 				3A776F2E291CC2F500F5936E /* MainViewController.swift in Sources */,
+				3A776F83291CEC7400F5936E /* R.generated.swift in Sources */,
 				3A776F5F291CD69600F5936E /* BaseViewController.swift in Sources */,
 				3A776F65291CE10700F5936E /* HasCustomView.swift in Sources */,
 				3A776F69291CE7E900F5936E /* ViewModelType.swift in Sources */,
@@ -780,7 +805,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FP8CB3BY93;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyPilates/Info.plist;
+				INFOPLIST_FILE = MyPilates/Asset/Plist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -811,7 +836,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FP8CB3BY93;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyPilates/Info.plist;
+				INFOPLIST_FILE = MyPilates/Asset/Plist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
