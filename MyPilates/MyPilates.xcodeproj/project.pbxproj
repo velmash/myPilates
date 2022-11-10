@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A776F2A291CC2F500F5936E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F29291CC2F500F5936E /* AppDelegate.swift */; };
 		3A776F2E291CC2F500F5936E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F2D291CC2F500F5936E /* MainViewController.swift */; };
-		3A776F33291CC2F500F5936E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F32291CC2F500F5936E /* Assets.xcassets */; };
+		3A776F33291CC2F500F5936E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F32291CC2F500F5936E /* Images.xcassets */; };
 		3A776F36291CC2F500F5936E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */; };
 		3A776F41291CC2F500F5936E /* MyPilatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F40291CC2F500F5936E /* MyPilatesTests.swift */; };
 		3A776F4B291CC2F500F5936E /* MyPilatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F4A291CC2F500F5936E /* MyPilatesUITests.swift */; };
@@ -21,6 +21,7 @@
 		3A776F65291CE10700F5936E /* HasCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F64291CE10700F5936E /* HasCustomView.swift */; };
 		3A776F67291CE11B00F5936E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F66291CE11B00F5936E /* MainView.swift */; };
 		3A776F69291CE7E900F5936E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F68291CE7E900F5936E /* ViewModelType.swift */; };
+		3A776F6D291CE83000F5936E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F6C291CE83000F5936E /* Colors.xcassets */; };
 		744092247889EA493647F353 /* Pods_MyPilates_MyPilatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */; };
 		80E1B748947B8CE947B489BD /* Pods_MyPilatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */; };
 		E23B2BE3E7920E9E87BD5053 /* Pods_MyPilates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */; };
@@ -47,7 +48,7 @@
 		3A776F26291CC2F500F5936E /* MyPilates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPilates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A776F29291CC2F500F5936E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A776F2D291CC2F500F5936E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		3A776F32291CC2F500F5936E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A776F32291CC2F500F5936E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3A776F35291CC2F500F5936E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A776F37291CC2F500F5936E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A776F3C291CC2F500F5936E /* MyPilatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPilatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +63,7 @@
 		3A776F64291CE10700F5936E /* HasCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCustomView.swift; sourceTree = "<group>"; };
 		3A776F66291CE11B00F5936E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3A776F68291CE7E900F5936E /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		3A776F6C291CE83000F5936E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilatesTests.release.xcconfig"; path = "Target Support Files/Pods-MyPilatesTests/Pods-MyPilatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,15 +138,12 @@
 		3A776F28291CC2F500F5936E /* MyPilates */ = {
 			isa = PBXGroup;
 			children = (
-				3A776F29291CC2F500F5936E /* AppDelegate.swift */,
-				3A776F5B291CD4F300F5936E /* SceneDelegate.swift */,
-				3A776F2D291CC2F500F5936E /* MainViewController.swift */,
-				3A776F66291CE11B00F5936E /* MainView.swift */,
-				3A776F32291CC2F500F5936E /* Assets.xcassets */,
-				3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */,
+				3A776F75291CE90400F5936E /* Domain */,
+				3A776F74291CE8CD00F5936E /* Data */,
+				3A776F76291CE91400F5936E /* Application */,
+				3A776F7F291CE9AE00F5936E /* Feature */,
 				3A776F5D291CD68500F5936E /* Common */,
-				3A776F37291CC2F500F5936E /* Info.plist */,
-				3A776F59291CC49700F5936E /* GoogleService-Info.plist */,
+				3A776F6A291CE80600F5936E /* Asset */,
 			);
 			path = MyPilates;
 			sourceTree = "<group>";
@@ -169,12 +168,184 @@
 		3A776F5D291CD68500F5936E /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				3A776F5E291CD69600F5936E /* BaseViewController.swift */,
-				3A776F62291CDA7500F5936E /* BaseView.swift */,
-				3A776F64291CE10700F5936E /* HasCustomView.swift */,
-				3A776F68291CE7E900F5936E /* ViewModelType.swift */,
+				3A776F73291CE88400F5936E /* Extensions */,
+				3A776F72291CE87D00F5936E /* ViewCotroller */,
+				3A776F71291CE87800F5936E /* ViewModel */,
+				3A776F70291CE87200F5936E /* View */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		3A776F6A291CE80600F5936E /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */,
+				3A776F6F291CE84F00F5936E /* plist */,
+				3A776F6B291CE81200F5936E /* Design */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		3A776F6B291CE81200F5936E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F6E291CE84000F5936E /* Fonts */,
+				3A776F32291CC2F500F5936E /* Images.xcassets */,
+				3A776F6C291CE83000F5936E /* Colors.xcassets */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3A776F6E291CE84000F5936E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3A776F6F291CE84F00F5936E /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F37291CC2F500F5936E /* Info.plist */,
+				3A776F59291CC49700F5936E /* GoogleService-Info.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		3A776F70291CE87200F5936E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F64291CE10700F5936E /* HasCustomView.swift */,
+				3A776F62291CDA7500F5936E /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A776F71291CE87800F5936E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F68291CE7E900F5936E /* ViewModelType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A776F72291CE87D00F5936E /* ViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F5E291CD69600F5936E /* BaseViewController.swift */,
+			);
+			path = ViewCotroller;
+			sourceTree = "<group>";
+		};
+		3A776F73291CE88400F5936E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A776F74291CE8CD00F5936E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F7D291CE95C00F5936E /* Mapper */,
+				3A776F7C291CE95700F5936E /* Repository */,
+				3A776F79291CE93C00F5936E /* DataSource */,
+				3A776F7E291CE96F00F5936E /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3A776F75291CE90400F5936E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F78291CE93100F5936E /* Entity */,
+				3A776F77291CE92B00F5936E /* Repository */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3A776F76291CE91400F5936E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F29291CC2F500F5936E /* AppDelegate.swift */,
+				3A776F5B291CD4F300F5936E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3A776F77291CE92B00F5936E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3A776F78291CE93100F5936E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3A776F79291CE93C00F5936E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F7B291CE95000F5936E /* Remote */,
+				3A776F7A291CE94B00F5936E /* Local */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		3A776F7A291CE94B00F5936E /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		3A776F7B291CE95000F5936E /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		3A776F7C291CE95700F5936E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3A776F7D291CE95C00F5936E /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		3A776F7E291CE96F00F5936E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A776F7F291CE9AE00F5936E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F80291CE9B500F5936E /* Main */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		3A776F80291CE9B500F5936E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F2D291CC2F500F5936E /* MainViewController.swift */,
+				3A776F66291CE11B00F5936E /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		D512DFC143611AA4FAEFFFC9 /* Pods */ = {
@@ -300,8 +471,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A776F36291CC2F500F5936E /* LaunchScreen.storyboard in Resources */,
+				3A776F6D291CE83000F5936E /* Colors.xcassets in Resources */,
 				3A776F5A291CC49700F5936E /* GoogleService-Info.plist in Resources */,
-				3A776F33291CC2F500F5936E /* Assets.xcassets in Resources */,
+				3A776F33291CC2F500F5936E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
