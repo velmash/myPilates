@@ -14,6 +14,8 @@ target 'MyPilates' do
   pod 'FirebaseDatabase'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'Then'
 
   target 'MyPilatesTests' do
     inherit! :search_paths
