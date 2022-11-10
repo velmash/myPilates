@@ -16,6 +16,10 @@
 		3A776F41291CC2F500F5936E /* MyPilatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F40291CC2F500F5936E /* MyPilatesTests.swift */; };
 		3A776F4B291CC2F500F5936E /* MyPilatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F4A291CC2F500F5936E /* MyPilatesUITests.swift */; };
 		3A776F4D291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F4C291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift */; };
+		3A776F5A291CC49700F5936E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F59291CC49700F5936E /* GoogleService-Info.plist */; };
+		744092247889EA493647F353 /* Pods_MyPilates_MyPilatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */; };
+		80E1B748947B8CE947B489BD /* Pods_MyPilatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */; };
+		E23B2BE3E7920E9E87BD5053 /* Pods_MyPilates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		3A776F46291CC2F500F5936E /* MyPilatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPilatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A776F4A291CC2F500F5936E /* MyPilatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPilatesUITests.swift; sourceTree = "<group>"; };
 		3A776F4C291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPilatesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A776F59291CC49700F5936E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilatesTests.release.xcconfig"; path = "Target Support Files/Pods-MyPilatesTests/Pods-MyPilatesTests.release.xcconfig"; sourceTree = "<group>"; };
+		72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961B3C58A38ED57AC06F5FCB /* Pods-MyPilates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates.release.xcconfig"; path = "Target Support Files/Pods-MyPilates/Pods-MyPilates.release.xcconfig"; sourceTree = "<group>"; };
+		ADEE1EF06C3B2DE17ABCFCCC /* Pods-MyPilates-MyPilatesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates-MyPilatesUITests.release.xcconfig"; path = "Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1D9308CE269E7771C28097C /* Pods-MyPilatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilatesTests.debug.xcconfig"; path = "Target Support Files/Pods-MyPilatesTests/Pods-MyPilatesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AE5A57FB8D3464DC6F7733 /* Pods-MyPilates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates.debug.xcconfig"; path = "Target Support Files/Pods-MyPilates/Pods-MyPilates.debug.xcconfig"; sourceTree = "<group>"; };
+		E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilates_MyPilatesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilatesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23B2BE3E7920E9E87BD5053 /* Pods_MyPilates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E1B748947B8CE947B489BD /* Pods_MyPilatesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744092247889EA493647F353 /* Pods_MyPilates_MyPilatesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250C3E3AACBECA20B01965A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */,
+				E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */,
+				EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A776F1D291CC2F500F5936E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				3A776F3F291CC2F500F5936E /* MyPilatesTests */,
 				3A776F49291CC2F500F5936E /* MyPilatesUITests */,
 				3A776F27291CC2F500F5936E /* Products */,
+				D512DFC143611AA4FAEFFFC9 /* Pods */,
+				250C3E3AACBECA20B01965A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +135,7 @@
 				3A776F32291CC2F500F5936E /* Assets.xcassets */,
 				3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */,
 				3A776F37291CC2F500F5936E /* Info.plist */,
+				3A776F59291CC49700F5936E /* GoogleService-Info.plist */,
 			);
 			path = MyPilates;
 			sourceTree = "<group>";
@@ -127,6 +157,20 @@
 			path = MyPilatesUITests;
 			sourceTree = "<group>";
 		};
+		D512DFC143611AA4FAEFFFC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9AE5A57FB8D3464DC6F7733 /* Pods-MyPilates.debug.xcconfig */,
+				961B3C58A38ED57AC06F5FCB /* Pods-MyPilates.release.xcconfig */,
+				46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */,
+				ADEE1EF06C3B2DE17ABCFCCC /* Pods-MyPilates-MyPilatesUITests.release.xcconfig */,
+				B1D9308CE269E7771C28097C /* Pods-MyPilatesTests.debug.xcconfig */,
+				6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A776F50291CC2F500F5936E /* Build configuration list for PBXNativeTarget "MyPilates" */;
 			buildPhases = (
+				F72CDC8DF856D562C9078802 /* [CP] Check Pods Manifest.lock */,
 				3A776F22291CC2F500F5936E /* Sources */,
 				3A776F23291CC2F500F5936E /* Frameworks */,
 				3A776F24291CC2F500F5936E /* Resources */,
+				7EDA8F5D8440D1AE3CA8542D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A776F53291CC2F500F5936E /* Build configuration list for PBXNativeTarget "MyPilatesTests" */;
 			buildPhases = (
+				633876B8D32151C842953F43 /* [CP] Check Pods Manifest.lock */,
 				3A776F38291CC2F500F5936E /* Sources */,
 				3A776F39291CC2F500F5936E /* Frameworks */,
 				3A776F3A291CC2F500F5936E /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A776F56291CC2F500F5936E /* Build configuration list for PBXNativeTarget "MyPilatesUITests" */;
 			buildPhases = (
+				7E1C2BFF331F9C81E9D04C26 /* [CP] Check Pods Manifest.lock */,
 				3A776F42291CC2F500F5936E /* Sources */,
 				3A776F43291CC2F500F5936E /* Frameworks */,
 				3A776F44291CC2F500F5936E /* Resources */,
+				DE17CACD0C1016B77005435C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A776F36291CC2F500F5936E /* LaunchScreen.storyboard in Resources */,
+				3A776F5A291CC49700F5936E /* GoogleService-Info.plist in Resources */,
 				3A776F33291CC2F500F5936E /* Assets.xcassets in Resources */,
 				3A776F31291CC2F500F5936E /* Main.storyboard in Resources */,
 			);
@@ -252,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		633876B8D32151C842953F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPilatesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1C2BFF331F9C81E9D04C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPilates-MyPilatesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDA8F5D8440D1AE3CA8542D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPilates/Pods-MyPilates-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPilates/Pods-MyPilates-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPilates/Pods-MyPilates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE17CACD0C1016B77005435C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72CDC8DF856D562C9078802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPilates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A776F22291CC2F500F5936E /* Sources */ = {
@@ -432,6 +585,7 @@
 		};
 		3A776F51291CC2F500F5936E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AE5A57FB8D3464DC6F7733 /* Pods-MyPilates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +614,7 @@
 		};
 		3A776F52291CC2F500F5936E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961B3C58A38ED57AC06F5FCB /* Pods-MyPilates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +643,7 @@
 		};
 		3A776F54291CC2F500F5936E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D9308CE269E7771C28097C /* Pods-MyPilatesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +664,7 @@
 		};
 		3A776F55291CC2F500F5936E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +685,7 @@
 		};
 		3A776F57291CC2F500F5936E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +704,7 @@
 		};
 		3A776F58291CC2F500F5936E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEE1EF06C3B2DE17ABCFCCC /* Pods-MyPilates-MyPilatesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
