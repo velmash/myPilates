@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3A776F2A291CC2F500F5936E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F29291CC2F500F5936E /* AppDelegate.swift */; };
-		3A776F2C291CC2F500F5936E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F2B291CC2F500F5936E /* SceneDelegate.swift */; };
-		3A776F2E291CC2F500F5936E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F2D291CC2F500F5936E /* ViewController.swift */; };
-		3A776F31291CC2F500F5936E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F2F291CC2F500F5936E /* Main.storyboard */; };
+		3A776F2E291CC2F500F5936E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F2D291CC2F500F5936E /* MainViewController.swift */; };
 		3A776F33291CC2F500F5936E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F32291CC2F500F5936E /* Assets.xcassets */; };
 		3A776F36291CC2F500F5936E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */; };
 		3A776F41291CC2F500F5936E /* MyPilatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F40291CC2F500F5936E /* MyPilatesTests.swift */; };
 		3A776F4B291CC2F500F5936E /* MyPilatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F4A291CC2F500F5936E /* MyPilatesUITests.swift */; };
 		3A776F4D291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F4C291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift */; };
 		3A776F5A291CC49700F5936E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A776F59291CC49700F5936E /* GoogleService-Info.plist */; };
+		3A776F5C291CD4F300F5936E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F5B291CD4F300F5936E /* SceneDelegate.swift */; };
+		3A776F5F291CD69600F5936E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F5E291CD69600F5936E /* BaseViewController.swift */; };
+		3A776F63291CDA7500F5936E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F62291CDA7500F5936E /* BaseView.swift */; };
+		3A776F65291CE10700F5936E /* HasCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F64291CE10700F5936E /* HasCustomView.swift */; };
+		3A776F67291CE11B00F5936E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A776F66291CE11B00F5936E /* MainView.swift */; };
 		744092247889EA493647F353 /* Pods_MyPilates_MyPilatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E768F5FD6399EF3E6DCFCDC9 /* Pods_MyPilates_MyPilatesUITests.framework */; };
 		80E1B748947B8CE947B489BD /* Pods_MyPilatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C952779BACBF1EC280719 /* Pods_MyPilatesTests.framework */; };
 		E23B2BE3E7920E9E87BD5053 /* Pods_MyPilates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */; };
@@ -42,9 +45,7 @@
 /* Begin PBXFileReference section */
 		3A776F26291CC2F500F5936E /* MyPilates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPilates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A776F29291CC2F500F5936E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A776F2B291CC2F500F5936E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A776F2D291CC2F500F5936E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A776F30291CC2F500F5936E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A776F2D291CC2F500F5936E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3A776F32291CC2F500F5936E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A776F35291CC2F500F5936E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A776F37291CC2F500F5936E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +55,11 @@
 		3A776F4A291CC2F500F5936E /* MyPilatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPilatesUITests.swift; sourceTree = "<group>"; };
 		3A776F4C291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPilatesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A776F59291CC49700F5936E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A776F5B291CD4F300F5936E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A776F5E291CD69600F5936E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3A776F62291CDA7500F5936E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		3A776F64291CE10700F5936E /* HasCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCustomView.swift; sourceTree = "<group>"; };
+		3A776F66291CE11B00F5936E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		46DEB6794FDDC509C7F22317 /* Pods-MyPilates-MyPilatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPilates-MyPilatesUITests/Pods-MyPilates-MyPilatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A56F852B3B6E8D31F1EB457 /* Pods-MyPilatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPilatesTests.release.xcconfig"; path = "Target Support Files/Pods-MyPilatesTests/Pods-MyPilatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		72A47733FCECAF7D607E607F /* Pods_MyPilates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPilates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,11 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				3A776F29291CC2F500F5936E /* AppDelegate.swift */,
-				3A776F2B291CC2F500F5936E /* SceneDelegate.swift */,
-				3A776F2D291CC2F500F5936E /* ViewController.swift */,
-				3A776F2F291CC2F500F5936E /* Main.storyboard */,
+				3A776F5B291CD4F300F5936E /* SceneDelegate.swift */,
+				3A776F2D291CC2F500F5936E /* MainViewController.swift */,
+				3A776F66291CE11B00F5936E /* MainView.swift */,
 				3A776F32291CC2F500F5936E /* Assets.xcassets */,
 				3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */,
+				3A776F5D291CD68500F5936E /* Common */,
 				3A776F37291CC2F500F5936E /* Info.plist */,
 				3A776F59291CC49700F5936E /* GoogleService-Info.plist */,
 			);
@@ -155,6 +162,16 @@
 				3A776F4C291CC2F500F5936E /* MyPilatesUITestsLaunchTests.swift */,
 			);
 			path = MyPilatesUITests;
+			sourceTree = "<group>";
+		};
+		3A776F5D291CD68500F5936E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3A776F5E291CD69600F5936E /* BaseViewController.swift */,
+				3A776F62291CDA7500F5936E /* BaseView.swift */,
+				3A776F64291CE10700F5936E /* HasCustomView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		D512DFC143611AA4FAEFFFC9 /* Pods */ = {
@@ -282,7 +299,6 @@
 				3A776F36291CC2F500F5936E /* LaunchScreen.storyboard in Resources */,
 				3A776F5A291CC49700F5936E /* GoogleService-Info.plist in Resources */,
 				3A776F33291CC2F500F5936E /* Assets.xcassets in Resources */,
-				3A776F31291CC2F500F5936E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +426,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A776F2E291CC2F500F5936E /* ViewController.swift in Sources */,
+				3A776F67291CE11B00F5936E /* MainView.swift in Sources */,
+				3A776F2E291CC2F500F5936E /* MainViewController.swift in Sources */,
+				3A776F5F291CD69600F5936E /* BaseViewController.swift in Sources */,
+				3A776F65291CE10700F5936E /* HasCustomView.swift in Sources */,
+				3A776F63291CDA7500F5936E /* BaseView.swift in Sources */,
 				3A776F2A291CC2F500F5936E /* AppDelegate.swift in Sources */,
-				3A776F2C291CC2F500F5936E /* SceneDelegate.swift in Sources */,
+				3A776F5C291CD4F300F5936E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3A776F2F291CC2F500F5936E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A776F30291CC2F500F5936E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3A776F34291CC2F500F5936E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -595,7 +607,6 @@
 				INFOPLIST_FILE = MyPilates/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -627,7 +638,6 @@
 				INFOPLIST_FILE = MyPilates/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
